@@ -107,7 +107,7 @@ export const projects: Project[] = [
     ],
     techStack: ['Unity3D', 'C#', 'Game Design', 'Level Design'],
     github: 'https://github.com/coollkr/GameProject',
-    videoEmbed: '', // B站视频链接待填
+    videoEmbed: 'https://www.bilibili.com/video/BV1JxwFzpEnM/',
     gradient: 'from-red-600 to-orange-500',
   },
   {
