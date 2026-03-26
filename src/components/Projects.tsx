@@ -97,6 +97,17 @@ export default function Projects() {
                           {project.link.label}
                         </a>
                       )}
+                      {project.link2 && (
+                        <a
+                          href={project.link2.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="group/link flex items-center gap-1.5 px-4 py-2 text-sm text-primary bg-primary/10 border border-primary/20 rounded-lg hover:bg-primary/20 hover:border-primary/30 transition-all"
+                        >
+                          <ExternalLink className="w-3.5 h-3.5" />
+                          {project.link2.label}
+                        </a>
+                      )}
                       {project.github && (
                         <a
                           href={project.github}

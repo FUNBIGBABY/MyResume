@@ -42,6 +42,7 @@ export interface Project {
   description: string[]
   techStack: string[]
   link?: { url: string; label: string }
+  link2?: { url: string; label: string }
   github?: string
   pdfReport?: string
   videoEmbed?: string
@@ -123,6 +124,7 @@ export const projects: Project[] = [
     ],
     techStack: ['Next.js', 'FastAPI', 'Redis', 'TradingView', 'DeepSeek AI'],
     link: { url: 'https://stock.qingtu-studio.com', label: '访问平台' },
+    link2: { url: 'https://tradingAI.qingtu-studio.com', label: '访问网站' },
     gradient: 'from-amber-600 to-yellow-500',
   },
 ]
